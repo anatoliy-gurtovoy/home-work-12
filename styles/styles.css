@@ -1,0 +1,78 @@
+body {
+    font-family: 'Farro', sans-serif;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Tourney', cursive;
+}
+
+main {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    height: 80px;
+}
+
+
+li {
+    display: inline;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+
+img {
+    justify-content: flex-end;
+    width: 238px;
+    Height: 54px;
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+span {
+    font-family: 'Farro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+    vertical-align: text-top;
+}
+
+div {
+    margin-top: 70px;
+}
