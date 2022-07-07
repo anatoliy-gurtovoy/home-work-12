@@ -7,17 +7,67 @@ body {
     font-family: 'Tourney', cursive;
 }
 
+.sidebar {
+    padding-top: 170px;
+    position: fixed;
+    top: 50px;
+}
+
+.header-sidebar {
+    padding-bottom: 70px;
+}
+
 main {
+    display: flex;
     width: 1200px;
     margin: auto;
 }
 
+
 header {
     display: flex;
     align-items: flex-start;
+    position: fixed;
+    width: 1200px;
     height: 80px;
+    background-color: white;
 }
 
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    width: 785px;
+    margin: 100px auto 0 535px;
+}
+
+.bg-picture {
+    background-image: none;
+    Width: 760px;
+    Height: 760px;
+    position: fixed;
+    z-index: -1;
+    top: 150px;
+    right: 0;
+}
+
+.logo {
+    margin: 13px 0 auto auto;
+}
+
+.languege {
+    margin-top: 40px;
+}
+
+nav {
+    margin: 40px auto auto 50px;
+}
 
 li {
     display: inline;
@@ -32,8 +82,7 @@ li {
 }
 
 
-img {
-    justify-content: flex-end;
+.img-logo {
     width: 238px;
     Height: 54px;
 }
@@ -74,7 +123,7 @@ p {
     vertical-align: text-top;
 }
 
-div {
+.chapters {
     margin-top: 70px;
 }
 

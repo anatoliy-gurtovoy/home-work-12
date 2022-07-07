@@ -19,24 +19,46 @@
     <main>
 
         <header>
-            <select name="language">
-                <option value="english">eng</option>
-                <option value="ukraine">ukr</option>
-            </select>
+            <div class="languege">
+                <select>
+                    <option value="english">eng</option>
+                    <option value="ukraine">ukr</option>
+                </select>
+            </div>
+
             <nav>
                 <ul>
-                    <li>Documentation</li>
+                    <li> Documentation</li>
                     <li>/</li>
-                    <li>Who's using</li>
+                    <li><a href="page2.html">Who's using</a></li>
                 </ul>
             </nav>
-            <img src="img/company-logo-black.svg" alt="company-logo-black">
 
-
+            <div class="logo">
+                <img class="img-logo" src="img/company-logo-black.svg" alt="company-logo-black">
+            </div>
         </header>
-        <section>
 
-            <div>
+        <aside class="sidebar">
+            <a href="#introduction">
+                <h2 class="header-sidebar">Introduction</h2>
+            </a>
+            <a href="#core_components">
+                <h2 class="header-sidebar">core components</h2>
+            </a>
+            <a href="#react_fundamentals">
+                <h2 class="header-sidebar">react fundamentals</h2>
+            </a>
+            <a href="#handling_text_input">
+                <h2 class="header-sidebar">handling text input</h2>
+            </a>
+
+        </aside>
+
+        <section>
+            <img class="bg-picture" src="img/bg-picture.png" alt="bg-picture">
+            <div class="chapters">
+                <a name="introduction"></a>
                 <h2>Introduction <span class="chapter">Chapter 1</span></h2>
                 <p>
                     Welcome to the very start of your React Native journey! If you're looking for environment setup
@@ -49,7 +71,8 @@
 
             </div>
 
-            <div>
+            <div class="chapters">
+                <a name="core_components"></a>
                 <h2>core components <span class="chapter">Chapter 2</span></h2>
 
                 <p>
@@ -68,7 +91,8 @@
                 </p>
             </div>
 
-            <div>
+            <div class="chapters">
+                <a name="react_fundamentals"></a>
                 <h2>react fundamentals <span class="chapter">Chapter 3</span></h2>
                 <p>React Native runs on <u>React</u> , a popular open source library for building user interfaces with
                     JavaScript.
@@ -125,7 +149,8 @@
                 </p>
             </div>
 
-            <div>
+            <div class="chapters">
+                <a name="handling_text_input"></a>
                 <h2>handling text input <span class="chapter">Chapter 4</span></h2>
                 <p>
                     TextInput is a Core Component that allows the user to enter text. It has an onChangeText prop that
